@@ -5,9 +5,225 @@
     margin: 0;
     padding: 0;
     font-family: Azeret Mono;
+    scroll-behavior: smooth;
 }
 
 :root {
     --t-color: rgb(13, 19, 33);
     --o-t-color: rgba(13, 19, 33, 0.7)
 }
+
+
+
+/* Header navigation style */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 40px auto;
+}
+
+.intro {
+    color: var(--t-color);
+    font-size: 28px;
+    font-weight: 800;
+    text-align: left;
+    margin: auto 0;
+}
+
+.download button {
+    padding: 18px 24px;
+    color: var(--t-color);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.8;
+}
+
+.download button:hover {
+    cursor: pointer;
+    background-color: rgb(19, 19, 19);
+    color: rgb(238, 238, 238);
+    transition: all 300ms;
+}
+
+
+
+/* Header banner section */
+
+.banner {
+    /* border: 1px solid red; */
+    background-image: url(/assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 100%;
+    height: 652px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.banner-title {
+    /* border: 10px solid red; */
+    color: var(--t-color);
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.banner-p {
+    /* border: 10px solid red; */
+    color: var(--o-t-color);
+    padding: 0 25%;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.banner button {
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    width: 244px;
+    height: 65px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.banner button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: all 300ms;
+}
+
+
+
+/* Main section start */
+
+main {
+    /* margin: 0 15%; */
+    margin: auto;
+    width: 1140px;
+}
+
+/*Question container */
+
+.question-container {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 74px 0 0;
+    padding: 80px 80px;
+    align-items: center;
+}
+
+.question-container>h1 {
+    color: var(--t-color);
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.question-container>p {
+    margin-top: 30px;
+    color: var(--o-t-color);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.question-container section h1 {
+    color: var(--o-t-color);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+}
+
+.question-container section p {
+    color: var(--o-t-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.question-container section button {
+    color: var(--o-t-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    padding: 12px 20px;
+    margin-top: 30px;
+}
+
+.question-container section button:hover {
+    cursor: pointer;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 48px;
+    margin-top: 50px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    border-radius: 10px;
+}
+
+.question2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 80px;
+    padding: 48px;
+    margin-top: 50px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    border-radius: 10px;
+}
+
+
+
+/* Inspiration section */
+
+.inspiration h1{
+    margin-top: 90px;
+    color: var(--t-color);
+    font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+text-align: center;
+}
+
+.inspiration p {
+    margin-top: 24px;
+    color: var(--o-t-color);
+    font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+}
+
+.i-video {
+    margin-top: 48px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+  width:1140px;
+  height:550px;
+}
+
+.i-video iframe {
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+  }
