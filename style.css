@@ -392,3 +392,96 @@ main {
     letter-spacing: 0%;
     text-align: left;
 }
+
+
+
+/* Feedback section */
+
+.feedback-container {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    height: 313px;
+    padding: 64px 48px;
+    border-radius: 16px;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(/assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.feedback-container h1 {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
+
+.feedback-container p {
+    margin: 16px 220px 24px;
+    color: rgb(255, 255, 255, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.feedback-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 16px;
+}
+
+#feedback {
+    width: 548px;
+    height: 57px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+}
+
+#submit {
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    color: var(--t-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+}
+
+#submit:hover {
+    transform: scale(1.02);
+}
+
+
+
+/* footer section */
+
+footer {
+    padding: 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h1 {
+    color: var(--t-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: left;
+}
+
+.social {
+    display: flex;
+    column-gap: 24px;
+}
