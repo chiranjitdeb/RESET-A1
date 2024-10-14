@@ -57,7 +57,7 @@ nav {
 
 .banner {
     /* border: 1px solid red; */
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -404,7 +404,7 @@ main {
     padding: 64px 48px;
     border-radius: 16px;
     text-align: center;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(/assets/handshake.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(assets/handshake.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
